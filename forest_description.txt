@@ -1,0 +1,67 @@
+RandomForestClassificationModel (uid=rfc_c9256b24adcf) with 3 trees
+  Tree 0 (weight 1.0):
+    If (feature 57 <= 0.09)
+     If (feature 40 <= 0.03)
+      If (feature 43 <= 0.13)
+       Predict: 3.0
+      Else (feature 43 > 0.13)
+       Predict: 1.0
+     Else (feature 40 > 0.03)
+      If (feature 40 <= 0.31)
+       Predict: 1.0
+      Else (feature 40 > 0.31)
+       Predict: 1.0
+    Else (feature 57 > 0.09)
+     If (feature 112 <= 0.18)
+      If (feature 54 <= 0.1)
+       Predict: 2.0
+      Else (feature 54 > 0.1)
+       Predict: 1.0
+     Else (feature 112 > 0.18)
+      If (feature 112 <= 0.23)
+       Predict: 0.0
+      Else (feature 112 > 0.23)
+       Predict: 0.0
+  Tree 1 (weight 1.0):
+    If (feature 40 <= 0.01)
+     If (feature 10 <= 0.05)
+      If (feature 70 <= 0.02)
+       Predict: 0.0
+      Else (feature 70 > 0.02)
+       Predict: 0.0
+     Else (feature 10 > 0.05)
+      If (feature 85 <= 0.05)
+       Predict: 1.0
+      Else (feature 85 > 0.05)
+       Predict: 2.0
+    Else (feature 40 > 0.01)
+     If (feature 6 <= 0.11)
+      If (feature 37 <= 0.01)
+       Predict: 1.0
+      Else (feature 37 > 0.01)
+       Predict: 0.0
+     Else (feature 6 > 0.11)
+      Predict: 0.0
+  Tree 2 (weight 1.0):
+    If (feature 10 <= 0.06)
+     If (feature 43 <= 0.14)
+      If (feature 78 <= 0.29)
+       Predict: 0.0
+      Else (feature 78 > 0.29)
+       Predict: 1.0
+     Else (feature 43 > 0.14)
+      If (feature 71 <= 0.01)
+       Predict: 1.0
+      Else (feature 71 > 0.01)
+       Predict: 3.0
+    Else (feature 10 > 0.06)
+     If (feature 109 <= 0.0)
+      If (feature 80 <= 0.14)
+       Predict: 1.0
+      Else (feature 80 > 0.14)
+       Predict: 1.0
+     Else (feature 109 > 0.0)
+      If (feature 6 <= 0.0)
+       Predict: 3.0
+      Else (feature 6 > 0.0)
+       Predict: 2.0
